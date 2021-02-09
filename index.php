@@ -12,35 +12,7 @@
 </head>
 
 <body>
-  <div class="row">
 
-    <?php
-    for ($i = 0; $i < 4; $i++) {
-
-    ?>
-      <div class="col-xl-6  mb-3">
-        <div class="widget">
-          <div class="overlay p-2 ">
-            <div class="front_content">
-              <span class="cat_name">category name</span><span class="cat_popular">Popular</span>
-              <h4>Lorem eligendi consectetur ullam perspiciatis officia quos.</h4>
-              <span class="top_meta"><img src="uploads/authors/avater.png" alt=""> Author Name &nbsp;&nbsp;</span> <span class="top_meta"> <i class="fa fa-calendar"></i> 29th May </span>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae quibusdam ducimus quaerat magnam optio laboriosam fuga. Eius, provident? Fugit, voluptatibus!</p>
-              <a class="read_more" href="">Read More <i class="fas fa-arrow-right"></i></a>
-
-            </div>
-          </div>
-          <img class="post_image" src="uploads/post_images/green.jpg" alt="">
-
-        </div>
-
-      </div>
-
-    <?php
-    }
-    ?>
-
-  </div>
 
   <h1>Im Tusar</h1>
   <!-- Optional JavaScript -->
