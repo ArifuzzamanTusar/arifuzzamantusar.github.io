@@ -1,0 +1,261 @@
+/* In this file, you can customize how the embed widgets look, the colors, etc. */
+/* The root classes of all embedded widgets have been provided, as well as classes to be able
+to customize the Countdown, and Date & Time widgets */
+
+/* For example, if you want to change the background color of the Countdown section
+of a certain embed form, (in this case, Registration Styled Layout 1) you can target it by doing: */
+/* .registration-embed-styled-0 .countdown {
+    background-color: #0feb9e;
+} */
+
+/* Or, if you want to change the font color, size, etc. of the counter label for the days, hours, minutes,
+or seconds, in the Countdown section of the Countdown + Date & Time Styled Layout 2, you can target it like so: */
+/* .countdown-and-datetime-embed-styled-1 .countdown .countdown__days .countdown__label {
+    font-size: 16px;
+    color: #333333;
+} */
+
+/******* Registration Embed Widget *******/
+
+/* Simple 1 */
+.registration-embed-simple-0 {
+    background: white;
+}
+
+/* Simple 2 */
+.registration-embed-simple-1 {
+}
+
+/* Simple 3 */
+.registration-embed-simple-2 {
+}
+
+/* Styled 1 */
+.registration-embed-styled-0 {
+}
+
+/* Styled 2 */
+.registration-embed-styled-1 {
+}
+
+/* Styled 3 */
+.registration-embed-styled-2 {
+}
+
+/******* Countdown *******/
+
+/* =============================== */
+.registration-embed-simple-0 .countdown {
+  display: none !important;
+}
+.registration-embed-simple-0 .reg-embed--header p {
+    display: none !important;
+  }
+  .vfix{
+      display: none !important;
+  }
+  .embed-registration--footer h4{
+      display: none;
+  }
+  .registration-embed-simple-0 .embed-registration--footer{
+      background: white;
+  }
+
+  .registration-embed-simple-0 .embed-registration--button__wrapper .button{
+      width: 100%;
+    cursor: pointer;
+    
+    margin-bottom: 0;
+    border: 0;
+    border-radius: 10px;
+    padding: 20px 60px 18px;
+    font-size: 20px;
+    font-weight: 900;
+    text-transform: uppercase;
+    background: -webkit-gradient(linear, left top, right bottom, from(#ffe259), to(#ffa751));
+    background: -webkit-linear-gradient(top left, #ffe259, #ffa751);
+    background: -o-linear-gradient(top left, #ffe259, #ffa751);
+    background: linear-gradient(to bottom right, #ffe259, #ffa751);
+    color: rgba(24, 26, 28, .85);
+    -webkit-transition: 256ms;
+    -o-transition: 256ms;
+    transition: 256ms;
+    -webkit-box-shadow: 0 16px 48px rgb(32 41 50 / 25%);
+    box-shadow: 0 16px 48px rgb(32 41 50 / 25%);
+    line-height: 1.5;
+  }
+
+  .registration-embed-simple-0 .embed-registration--button__wrapper .button:hover{
+    -o-transition: 256ms;
+    transition: 256ms;
+    -webkit-transform: translateZ(50px) translateY(-6px);
+    transform: translateZ(50px) translateY(-6px);
+    -webkit-box-shadow: 0 32px 96px rgb(32 41 50 / 25%);
+    box-shadow: 0 32px 96px rgb(32 41 50 / 25%);
+  }
+
+
+/* =========================== */
+.countdown {
+  
+}
+
+.countdown__days {
+}
+
+.countdown__hours {
+}
+
+.countdown__mins {
+}
+
+.countdown__secs {
+}
+
+.no-times-notice {
+}
+
+.expire-notice {
+}
+
+/* Styled 1 */
+.countdown-embed-styled-0 {
+}
+
+/* Styled 2 */
+.countdown-embed-styled-1 {
+}
+
+/* Styled 3 */
+.countdown-embed-styled-2 {
+}
+
+/* Simple 1 */
+.countdown-embed-simple-0 {
+}
+
+/* Simple 2 */
+.countdown-embed-simple-1 {
+}
+
+/* Simple 3 */
+.countdown-embed-simple-2 {
+}
+
+/******* Countdown + Date & Time *******/
+
+.date-time {
+}
+
+.month {
+}
+
+.month-number {
+}
+
+.month-short {
+}
+
+.month-long {
+}
+
+.day {
+}
+
+.day-two-before {
+}
+
+.day-before {
+}
+
+.day-current {
+}
+
+.day-ordinal {
+}
+
+.day-after {
+}
+
+.day-two-after {
+}
+
+.year {
+}
+
+.year-num {
+}
+
+.dot-separator {
+}
+
+.at-separator {
+}
+
+.time {
+}
+
+.hour-short {
+}
+
+.hour-long {
+}
+
+.hour-separator {
+}
+
+.minute {
+}
+
+.period {
+}
+
+/* Styled 1 */
+.countdown-and-datetime-embed-styled-0 {
+}
+
+/* Styled 2 */
+.countdown-and-datetime-embed-styled-1 {
+}
+
+/* Styled 3 */
+.countdown-and-datetime-embed-styled-2 {
+}
+
+/* Simple 1 */
+.countdown-and-datetime-embed-simple-0 {
+}
+
+/* Simple 2 */
+.countdown-and-datetime-embed-simple-1 {
+}
+
+/* Simple 3 */
+.countdown-and-datetime-embed-simple-2 {
+}
+
+/******* Date & Time *******/
+
+/* Styled 1 */
+.datetime-embed-styled-0 {
+}
+
+/* Styled 2 */
+.datetime-embed-styled-1 {
+}
+
+/* Styled 3 */
+.datetime-embed-styled-2 {
+}
+
+/* Simple 1 */
+.datetime-embed-simple-0 {
+}
+
+/* Simple 2 */
+.datetime-embed-simple-1 {
+}
+
+/* Simple 3 */
+.datetime-embed-simple-2 {
+}
