@@ -1,0 +1,12 @@
+.page-body {
+    height: 100vh;
+  }
+  .slider-section {
+    height: 100vh;
+    background-color: red;
+  }
+  .content-section {
+    background: white;
+    height: 100vh;
+  }
+  

@@ -1,0 +1,31 @@
+/* Global Theme Color */
+:root {
+  --orange: rgb(247, 119, 60);
+  --yellow: rgba(234, 166, 5, 1);
+  --green: rgba(108, 247, 60, 1);
+  --blue: rgba(5, 234, 220, 1);
+}
+
+/* theming */
+
+.t_btn {
+  transition: 0.5s;
+  border-radius: 100px;
+  padding: 10px 30px;
+  color: white;
+  box-shadow: 5px 10px 30px rgb(199, 199, 199);
+}
+.t_btn:hover {
+  color: white;
+  margin-top: -10px;
+  transition: 0.5s;
+  box-shadow: 5px 10px 30px rgb(136, 136, 136);
+}
+.t_warning_bg {
+  background: var(--orange);
+  background: linear-gradient(225deg, var(--orange) 0%, var(--yellow) 100%);
+}
+.t_success_bg {
+  background: var(--green);
+  background: linear-gradient(225deg, var(--green) 0%, var(--blue) 100%);
+}
