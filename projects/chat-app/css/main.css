@@ -13,13 +13,13 @@
   border-radius: 100px;
   padding: 10px 30px;
   color: white;
-  box-shadow: 5px 10px 30px rgb(199, 199, 199);
+  box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.089);
 }
 .t_btn:hover {
   color: white;
   margin-top: -10px;
   transition: 0.5s;
-  box-shadow: 5px 10px 30px rgb(136, 136, 136);
+  box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.308);
 }
 .t_warning_bg {
   background: var(--orange);
