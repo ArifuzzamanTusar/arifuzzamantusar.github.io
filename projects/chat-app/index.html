@@ -11,6 +11,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 
+    <!-- Fontaweasome  -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Owl Carousel -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     <link rel="stylesheet"
@@ -120,8 +122,12 @@
                                 <div class="d-flex">
                                     <!-- Inline flex elements -->
                                     <div class="pe-3">
-                                        <a name="" id="" class="btn t_btn t_success_bg " href="#" role="button">SIGN
-                                            IN</a>
+
+                                        <!-- Button trigger modal -->
+                                        <button type="button" class="btn t_btn t_success_bg" data-bs-toggle="modal"
+                                            data-bs-target="#loginPopup">
+                                            SIGN IN
+                                        </button>
                                     </div>
                                     <div class="pe-3">
                                         <a name="" id="" class="btn t_btn t_warning_bg " href="#" role="button">Continue
@@ -130,6 +136,190 @@
                                     <!-- Inline flex elements ends -->
                                 </div>
                             </div>
+
+                            <!-- login Modal Starts -->
+
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="loginPopup" data-bs-backdrop="static" data-bs-keyboard="false"
+                                tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered modal-lg">
+                                    <div class="modal-content">
+
+                                        <div class="container-fluid m-0 p-0">
+                                            <button type="button" class="btn-close login-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <div class="login-wrap p-4 p-lg-5">
+                                                        <div class="pt-5 pb-5">
+                                                            <div class="d-flex">
+                                                                <div class="w-100">
+                                                                    <h3 class="mb-4">Sign In</h3>
+                                                                </div>
+                                                                <div class="w-100">
+                                                                    <p class="social-media d-flex justify-content-end">
+                                                                        <a href="#"
+                                                                            class="social-icon d-flex align-items-center justify-content-center"><span
+                                                                                class="fa fa-facebook"></span></a>
+                                                                        <a href="#"
+                                                                            class="social-icon d-flex align-items-center justify-content-center"><span
+                                                                                class="fa fa-twitter"></span></a>
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                            <form action="#" class="signin-form">
+                                                                <div class="form-group mb-3">
+                                                                    <label class="label" for="name">Username</label>
+                                                                    <input type="text" class="form-control"
+                                                                        placeholder="Username" required>
+                                                                </div>
+                                                                <div class="form-group mb-3">
+                                                                    <label class="label" for="password">Password</label>
+                                                                    <input type="password" class="form-control"
+                                                                        placeholder="Password" required>
+                                                                </div>
+                                                                <div class="form-group">
+                                                                    <button type="submit"
+                                                                        class="w-100 btn  t_success_bg submit px-3 text-white">Sign
+                                                                        In</button>
+                                                                    <div class="p-3"></div>
+                                                                </div>
+                                                                <div class="form-group d-md-flex">
+                                                                    <div class="w-50 text-left">
+                                                                        <label
+                                                                            class="checkbox-wrap checkbox-primary mb-0">
+                                                                            <input type="checkbox" checked>
+                                                                            <span class="checkmark"></span>Remember
+                                                                            Me
+
+                                                                        </label>
+                                                                    </div>
+                                                                    <div class="w-50 text-md-right">
+                                                                        <a href="#">Forgot Password</a>
+                                                                    </div>
+                                                                </div>
+                                                            </form>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6 create-account d-flex align-items-center">
+                                                    <div
+                                                        class="text-wrap p-4 p-lg-5 text-center d-flex align-items-center order-md-last">
+                                                        <div class="d-flex align-items-center pt-5 pb-5 ">
+                                                            <div class="text w-100">
+                                                                <h2>Welcome to login</h2>
+                                                                <p>Don't have an account?</p>
+                                                                <!-- <a href="register.html" class="btn signup">Sign
+                                                                    Up</a> -->
+                                                                <!-- Button trigger modal -->
+                                                                <button type="button" class="btn signup"
+                                                                    data-bs-toggle="modal" data-bs-target="#signUpPop" data-bs-dismiss="modal">
+                                                                    Sign Up
+                                                                </button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Login modal ends -->
+
+
+                            <!-- Signup Modal Starts  -->
+                            <div class="modal fade" id="signUpPop" data-bs-backdrop="static" data-bs-keyboard="false"
+                                tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered modal-lg">
+                                    <div class="modal-content">
+
+                                        <div class="container-fluid m-0 p-0">
+                                            <button type="button" class="btn-close login-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <div class="login-wrap p-4 p-lg-5">
+                                                        <div class="pt-5 pb-5">
+                                                            <div class="d-flex">
+                                                                <div class="w-100">
+                                                                    <h3 class="mb-4">Sign Up</h3>
+                                                                </div>
+                                                                <div class="w-100">
+                                                                    <p class="social-media d-flex justify-content-end">
+                                                                        <a href="#"
+                                                                            class="social-icon d-flex align-items-center justify-content-center"><span
+                                                                                class="fa fa-facebook"></span></a>
+                                                                        <a href="#"
+                                                                            class="social-icon d-flex align-items-center justify-content-center"><span
+                                                                                class="fa fa-twitter"></span></a>
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                            <form action="#" class="signin-form">
+                                                                <div class="form-group mb-3">
+                                                                    <label class="label" for="name">Username</label>
+                                                                    <input type="text" class="form-control"
+                                                                        placeholder="Username" required>
+                                                                </div>
+                                                                <div class="form-group mb-3">
+                                                                    <label class="label" for="name">Email</label>
+                                                                    <input type="email" class="form-control"
+                                                                        placeholder="Email Address" required>
+                                                                </div>
+                                                                <div class="form-group mb-3">
+                                                                    <label class="label" for="password">Password</label>
+                                                                    <input type="password" class="form-control"
+                                                                        placeholder="Password" required>
+                                                                </div>
+                                                                <div class="form-group">
+                                                                    <button type="submit"
+                                                                        class="w-100 btn  t_success_bg submit px-3 text-white">Create an account</button>
+                                                                    <div class="p-3"></div>
+                                                                </div>
+                                                                <div class="form-group d-md-flex">
+                                                                    <div class="w-100">
+                                                                        <label
+                                                                            class="checkbox-wrap checkbox-primary mb-0">
+                                                                            <input type="checkbox" checked>
+                                                                            <span class="checkmark"></span> Accepts all <a href="#">Terms and Condition</a>
+
+                                                                        </label>
+                                                                    </div>
+                                                                  
+                                                                </div>
+                                                            </form>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6 create-account d-flex align-items-center">
+                                                    <div
+                                                        class="text-wrap p-4 p-lg-5 text-center d-flex align-items-center order-md-last">
+                                                        <div class="d-flex align-items-center pt-5 pb-5 ">
+                                                            <div class="text w-100">
+                                                                <h2>Welcome to login</h2>
+                                                                <p>Already have an account?</p>
+                                                                <!-- <a href="register.html" class="btn signup">Sign
+                                                                Up</a> -->
+                                                                <!-- Button trigger modal -->
+                                                                <button type="button" class="btn signup"
+                                                                    data-bs-toggle="modal" data-bs-target="#loginPopup" data-bs-dismiss="modal">
+                                                                    Sign IN
+                                                                </button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Signup Modal Ends  -->
                         </div>
 
                     </div>

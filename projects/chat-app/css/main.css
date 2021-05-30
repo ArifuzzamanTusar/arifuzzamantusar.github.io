@@ -7,7 +7,9 @@
 }
 
 /* theming */
-
+a{
+  text-decoration: none;
+}
 .t_btn {
   transition: 0.5s;
   border-radius: 100px;
